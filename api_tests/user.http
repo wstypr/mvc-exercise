@@ -1,0 +1,22 @@
+GET http://localhost:8000/user
+
+###
+POST http://localhost:8000/user
+Content-Type: application/json
+
+{
+    "name": "ratna",
+    "password": "123"
+}
+
+###
+PATCH http://localhost:8000/user/66ad04c3d67edc6c30f1345e
+Content-Type: application/json
+
+{
+    "name": "haidar v2",
+    "password": "123"
+}
+
+###
+DELETE http://localhost:8000/user/66ad09c9f41df5769fea5daa

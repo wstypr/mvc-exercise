@@ -1,0 +1,14 @@
+POST http://localhost:8000/reply
+Content-Type: application/json
+
+{
+    "respondent":"66ad12eeedf5072f3bafa32c",
+    "message": "mine message",
+    "thread": "66ad65bdacf5a44b753d8c97"
+}
+
+###
+GET http://localhost:8000/reply
+
+###
+DELETE http://localhost:8000/reply/66aeb63bd715fc0135f89604

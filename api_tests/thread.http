@@ -1,0 +1,25 @@
+GET http://localhost:8000/thread
+
+###
+POST http://localhost:8000/thread
+Content-Type: application/json
+
+{
+    "title": "ekonomi meroker",
+  "content": "ekonomi hari ini sedang meroket",
+  "author": "66ad12eeedf5072f3bafa32c"
+}
+
+###
+DELETE http://localhost:8000/thread/66ad645016f4f14094615782
+
+###
+PATCH http://localhost:8000/thread/66ad7280b5b3adbb4ea0d154
+Content-Type: application/json
+
+{
+    "title": "Ekonomi Meroket",
+    "content": "New Content",
+    "author": "66ad12eeedf5072f3bafa32c"
+
+}
